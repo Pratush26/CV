@@ -1,0 +1,55 @@
+body
+{
+  margin:0px;
+  background-color:lavender;
+}
+#heading_portion
+{
+  background-color:#000044;
+  color:white;
+  text-align:center;
+  border-radius:8px;
+  margin:3px;
+}
+img
+{
+  border:3px solid white ;
+  border-radius:50%
+}
+@keyframes blink
+{
+  0%{opacity:1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+}
+.blink
+{
+  animation:blink 2s infinite;
+}
+table
+{
+  text-align:center;
+}
+th
+{
+ color:white;
+}
+td
+{
+  background-color:#ccdeff; 
+}
+#sub
+{
+  background-color:#1c2833;
+  text-align:center;
+  color:white;
+  box-shadow:0px 5px 15px black;
+  
+}
+#note
+{
+  padding-left:10px;
+  padding-right:10px;
+  border:2px solid white;
+  border-radius:8px;
+}
